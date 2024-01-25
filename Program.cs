@@ -8,7 +8,7 @@ public class AsciiArtCamApp
     private VideoCapture? capture;
     private const string chars = " .,-:;=+*#&$";
 
-    public Task Run(int frameRate = 30)
+    public Task Run(int frameRate = 60)
     {
         capture = new VideoCapture(0);
 
